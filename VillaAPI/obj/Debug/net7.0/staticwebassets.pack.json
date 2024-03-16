@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mostafayoussef/RiderProjects/VillaSolutionAPI/VillaAPI/wwwroot/Images/424556858_10233690870353980_8673913006465526533_n.jpg",
+      "PackagePath": "staticwebassets/Images/424556858_10233690870353980_8673913006465526533_n.jpg"
+    },
+    {
+      "Id": "/Users/mostafayoussef/RiderProjects/VillaSolutionAPI/VillaAPI/wwwroot/Images/IMG_1963.JPEG",
+      "PackagePath": "staticwebassets/Images/IMG_1963.JPEG"
+    },
+    {
+      "Id": "/Users/mostafayoussef/RiderProjects/VillaSolutionAPI/VillaAPI/wwwroot/Images/Picsart_23-06-22_04-04-39-192.jpg",
+      "PackagePath": "staticwebassets/Images/Picsart_23-06-22_04-04-39-192.jpg"
+    },
+    {
+      "Id": "/Users/mostafayoussef/RiderProjects/VillaSolutionAPI/VillaAPI/wwwroot/Images/Screenshot 2024-02-01 at 11.08.19\u202FPM.png",
+      "PackagePath": "staticwebassets/Images/Screenshot 2024-02-01 at 11.08.19\u202FPM.png"
+    },
+    {
+      "Id": "/Users/mostafayoussef/RiderProjects/VillaSolutionAPI/VillaAPI/wwwroot/Images/Screenshot 2024-02-01 at 11.11.38\u202FPM.png",
+      "PackagePath": "staticwebassets/Images/Screenshot 2024-02-01 at 11.11.38\u202FPM.png"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.VillaAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.VillaAPI.props",
+      "PackagePath": "build\\VillaAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.VillaAPI.props",
+      "PackagePath": "buildMultiTargeting\\VillaAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.VillaAPI.props",
+      "PackagePath": "buildTransitive\\VillaAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

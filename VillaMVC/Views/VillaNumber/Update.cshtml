@@ -1,0 +1,43 @@
+@model VillaMVC.Models.DTO.VillaNumberDto
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "_Layout";
+}
+
+<h1>Update</h1>
+
+<h4>VillaDTO</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update", asp-route-id="@Model.VillaNo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <input asp-for="VillaNo" class="form-control" hidden />
+
+            <div class="form-group">
+                <label asp-for="SpecialDetails" class="control-label"></label>
+                <input asp-for="SpecialDetails" class="form-control" />
+                <span asp-validation-for="SpecialDetails" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VillaID" class="control-label"></label>
+                <select asp-for="VillaID" class="form-control" asp-items="@(TempData["Villas"] as SelectList)"></select>
+                <span asp-validation-for="VillaID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+        
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

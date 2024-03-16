@@ -1,0 +1,56 @@
+@using System.ComponentModel
+@model List<VillaMVC.Models.DTO.VillaDTO>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+@if (TempData["NotValidId"] is not null)
+{
+    <div class="alert alert-dismissible alert-danger">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        @TempData["NotValidId"]
+    </div>
+}
+
+<br/>
+<partial name="_Notification"/>
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-primary">Villa List</h1>
+        </div>
+        <div class="col text-end pt-1">
+            <a asp-controller="Villa" asp-action="Create" class="btn btn-outline-primary"><i class="bi bi-plus-square-fill"></i> Create New Villa</a>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Details</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Details</td>
+                <td>
+                    <a asp-controller="Villa" asp-action="Update" asp-route-id="@item.ID" class="btn btn-success">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                    <a asp-controller="Villa" asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger">
+                        <i class="bi bi-trash-fill"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+
+</div>

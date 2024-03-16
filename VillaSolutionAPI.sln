@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaAPI", "VillaAPI\VillaAPI.csproj", "{AF21E4FF-2C33-433D-B202-C0B459686CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaMVC", "VillaMVC\VillaMVC.csproj", "{02E5755D-04F3-484E-BC59-8322A5371263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillaUtility", "VillaUtility\VillaUtility.csproj", "{054E439C-74C0-445E-B6C5-7A46912499FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF21E4FF-2C33-433D-B202-C0B459686CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF21E4FF-2C33-433D-B202-C0B459686CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF21E4FF-2C33-433D-B202-C0B459686CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF21E4FF-2C33-433D-B202-C0B459686CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E5755D-04F3-484E-BC59-8322A5371263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E5755D-04F3-484E-BC59-8322A5371263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E5755D-04F3-484E-BC59-8322A5371263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E5755D-04F3-484E-BC59-8322A5371263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054E439C-74C0-445E-B6C5-7A46912499FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054E439C-74C0-445E-B6C5-7A46912499FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054E439C-74C0-445E-B6C5-7A46912499FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054E439C-74C0-445E-B6C5-7A46912499FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
